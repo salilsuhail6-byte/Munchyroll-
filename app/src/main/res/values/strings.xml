@@ -3,8 +3,8 @@
     <string name="repo">middlegear/Saikou</string>
     <string name="preference_file_key" translatable="false">saikouprefs</string>
 
-    <string name="app_name">Saikou</string>
-    <string name="slogan">The Best Anime &amp; Manga app for Android.</string>
+    <string name="app_name">Munchyroll!</string>
+    <string name="slogan">Watch anime. Read manga.</string>
 
     <string name="login">Login</string>
     <string name="logout">Logout</string>

@@ -97,6 +97,10 @@ class AccountsActivity : AppCompatActivity() {
     }
 
     private fun reloadAccounts() {
+        binding.settingsAnilistLogin.visibility = View.GONE
+        binding.settingsMALLogin.visibility = View.GONE
+        binding.settingsMALLoginRequired.visibility = View.GONE
+        if (true) return
         if (Anilist.token != null) {
             binding.settingsAnilistLogin.setText(R.string.logout)
             binding.settingsAnilistLogin.setOnClickListener {

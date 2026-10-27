@@ -21,7 +21,7 @@ class LoginFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.loginButton.setOnClickListener { Anilist.loginIntent(requireActivity()) }
+        binding.loginButton.visibility = View.GONE
         binding.loginDiscord.setOnClickListener { openLinkInBrowser(getString(R.string.discord)) }
         binding.loginTelegram.setOnClickListener { openLinkInBrowser(getString(R.string.telegram)) }
         binding.loginGithub.setOnClickListener { openLinkInBrowser(getString(R.string.github)) }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg">#000000</color>
+    <color name="bg">#141519</color>
     <color name="fg">#A8EEEEEE</color>
     <color name="bg_opp">@color/bg_white</color>
-    <color name="nav_bg">#1C1C1C</color>
-    <color name="nav_bg_inv">#001C1C1C</color>
+    <color name="nav_bg">#23252B</color>
+    <color name="nav_bg_inv">#0023252B</color>
     <color name="nav_tab">#40ffffff</color>
     <color name="nav_tab_disabled">#40ffffff</color>
     <color name="status">#54000000</color>

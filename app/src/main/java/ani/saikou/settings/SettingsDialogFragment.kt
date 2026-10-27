@@ -27,7 +27,8 @@ class SettingsDialogFragment : BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        if (Anilist.token != null) {
+        binding.settingsLogin.visibility = View.GONE
+        if (false) {
             binding.settingsLogin.setText(R.string.logout)
             binding.settingsLogin.setOnClickListener {
                 Anilist.removeSavedToken(it.context)

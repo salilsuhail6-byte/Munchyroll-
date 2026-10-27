@@ -262,7 +262,7 @@ object Anilist {
                 "Accept" to "application/json"
             )
 
-            if (token != null || force) {
+            if (true) { // public API works without login
                 if (token != null && useToken) {
                     headers["Authorization"] = "Bearer $token"
                 }

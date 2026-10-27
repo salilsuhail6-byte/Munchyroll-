@@ -315,7 +315,7 @@ class MainActivity : AppCompatActivity() {
         override fun createFragment(position: Int): Fragment {
             return when (position) {
                 0 -> AnimeFragment()
-                1 -> if (!Anilist.token.isNullOrEmpty()) HomeFragment() else LoginFragment()
+                1 -> LoginFragment()
                 2 -> MangaFragment()
                 else -> LoginFragment()
             }
